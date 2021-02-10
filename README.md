@@ -32,3 +32,8 @@ Buildpack added. Next release on damp-headland-14639 will use:
   3. https://github.com/heroku/heroku-geo-buildpack.git
 ```
 
+When trying to create a superuser using: `heroku run python manage.py createsuperuser`, it says that the file `manage.py` does not exist. Furthermore, when trying to push any changes at all to `develop:master`, I am given this:
+```
+! [remote rejected] develop -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/damp-headland-14639.git'
+``
