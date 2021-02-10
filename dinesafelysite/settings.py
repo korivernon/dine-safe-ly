@@ -94,7 +94,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "dinesafelysite.wsgi.application"
 
-# Database
+## Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
